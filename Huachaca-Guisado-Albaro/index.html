@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSoluciones S.A.</title>
+
+    
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    
+    <main class="contenedor">
+
+       
+        <header class="cabecera">
+            <div class="logo-nombre">
+                <img src="img/logo.png" alt="Logo de la empresa" class="logo">
+                <h1 class="nombre-empresa">TechSoluciones S.A.</h1>
+            </div>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+       
+        <section class="slider" id="inicio">
+            <div class="slides">
+                <img src="img/slider1.jpg" alt="Slider 1" class="slide activo">
+                <img src="img/slider2.jpg" alt="Slider 2" class="slide">
+                <img src="img/slider3.jpg" alt="Slider 3" class="slide">
+            </div>
+
+           
+            <div class="paginacion">
+                <span class="punto activo" data-slide="0"></span>
+                <span class="punto" data-slide="1"></span>
+                <span class="punto" data-slide="2"></span>
+            </div>
+        </section>
+
+        
+        <section class="contenido">
+            <div class="columna video-col">
+                <h2>Video</h2>
+               
+                <iframe width="100%" height="315"
+                    src="https://www.youtube.com/embed/0qR94nV4mn4"
+                    title="Video descriptivo del producto"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="columna texto-col">
+                <h2>Lorem Ipsum Dolor Sit Amet</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                    qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste
+                    natus error sit voluptatem accusantium doloremque laudantium.
+                </p>
+            </div>
+        </section>
+
+        
+        <section class="formulario-seccion">
+
+            <aside class="publicidad" id="publicidad">
+                <h3>PUBLICIDAD</h3>
+                <p>Promoción especial del mes. ¡Aprovecha ahora!</p>
+            </aside>
+
+            <div class="registro" id="contacto">
+                <h2>Regístrate</h2>
+                <form id="formRegistro">
+                    <input type="text"  id="nombre"   placeholder="Nombres"          required>
+                    <input type="email" id="correo"   placeholder="Correo electrónico" required>
+                    <input type="tel"   id="telefono" placeholder="Teléfono"          required>
+                    <button type="submit">ENVIAR</button>
+                </form>
+                <p id="mensaje" class="mensaje"></p>
+            </div>
+        </section>
+
+       
+        <footer class="pie">
+            <div class="copyright">
+                
+                <p>&copy; 2024 Albaro Huachaca Guisado</p>
+                <p>Correo: <a href="mailto:tucorreo@electronico.com">albaroh@senati.com</a></p>
+                 <p><strong>Página web:</strong> https://albarohg.github.io/Huachaca-Guisado-Albaro/</p>
+            </div>
+
+            <div class="redes">
+               
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+                </a>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174848.png" alt="Facebook">
+                </a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+                </a>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
